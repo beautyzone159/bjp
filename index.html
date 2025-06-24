@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Top Nav and Sidebar Menu</title>
+  <style>
+
+  body {
+ background-image:url('Beauty salon.jpg');
+       background-repeat: no-repeat;
+  background-repeat:repeat;
+  background-color: #cccccc;
+  background-size:1500px 700px;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.top
+{
+left-margin:0;
+}
+
+    /* Top navigation bar */
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      line-heght:50px;
+      text-transform:capitalize;
+      font-family: 'calibri';
+      border-right: 1px solid white;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+      background-color: yellow;
+      color: black;
+    }
+
+    ul.topnav .active {
+      background-color: skyblue;
+    }
+
+    /* Sidebar style */
+    .sidebar {
+      height: 200px;
+      width: 100px;
+      position: fixed;
+      top: 50px; /* below the topnav */
+      left: 0;
+      background-color: yellow;
+      padding-top: 20px;
+      z-index: 0;
+      line-heght:100px;
+      text-transform:capitalize;
+      font-family: 'calibri';
+      border-right: 1px solid white;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: MediumSeaGreen;
+      color: white;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 100px;  /* width of sidebar + margin */
+      margin-top:0px;   /* height of topnav */
+      padding:100px;
+      background-color: none;
+      height: 100px;
+      width:500px;
+      color: blue;
+      
+    }
+  </style>
+</head>
+<body>
+<div class="top">
+  <!-- Top Nav -->
+  <ul class="topnav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="Makeup Product.html">Makeup</a></li>
+    <li><a href="Haircare Products.html">Haircare</a></li>
+    <li><a href="Skin Care Products.html">Skin</a></li>
+    <li><a href="Bath & Body Products.html">Bath of Body</a></li>
+    <li><a href="Beauty Advice.html">Beauty Advice</a></li>
+    <li><a href="Luxe Beauty Products.html">Luxe</a></li>
+    <li><a href="Wallace Pharma Products.html">Wellncss</a></li>
+    <li><a href="Appliances Product.html">Applicances</a></li>
+    <li><a href="Mom & Baby Catalog - Glam Look.html">Mom & Baby</a></li>
+    <li><a href="Men's Grooming Catalog.html">Men's & grooming</a></li>
+    <li><a href="Retail Products Catalog.html">Retail</a></li>
+    <li><a href="#advice">Pop-up' &</a></li>
+  </ul>
+</div>
+  <!-- Sidebar Nav -->
+  <div class="sidebar">
+    <a href="makeup.html">Makeup</a>
+    <a href="haircare.html">Haircare</a>
+    <a href="skincare.html">Skincare</a>
+    <a href="appliances.html">Appliances</a>
+    <a href="mom-baby.html" style="text-decoration: underline;">Mom & Baby</a>
+  </div>
+  <!-- Page Content -->
+  <div class="content" >
+    <h1> WELCOME TO MY BEAUTY SALON PAGE</h1>
+    <h2>Beauty isn't just about look it's about the kindness in someone's heart, the generosity of spirit.</h2>
+    <h2>The top and side navigation bars stay fixed while scrolling</h2>
+  </div>
+
+</body>
+</html>
