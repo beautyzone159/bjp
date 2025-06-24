@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Haircare Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .buy-btn {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Haircare Products</h1>
+
+  <div class="container">
+    <div class="card">
+      <div class="product-name">Dove Intense Repair Shampoo</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Pantene Hair Fall Control Shampoo</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Head & Shoulders Anti-Dandruff</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">L'Oréal Total Repair 5 Shampoo</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Indulekha Bhringa Hair Oil</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Mamaearth Onion Hair Oil</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Livon Hair Serum</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">TRESemmé Keratin Conditioner</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="card">
+      <div class="product-name">Biotique Hair Mask</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+</body>
+</html>

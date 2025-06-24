@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeup Product Catalog - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff69b4;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .catalog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-details h2 {
+      font-size: 1.5em;
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.3em;
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #ffe4e1;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💋 Glam Look Makeup Catalog</h1>
+    <p>आपकी सुंदरता का राज - एक ही जगह पर सभी ब्यूटी प्रोडक्ट्स!</p>
+  </header>
+
+  <div class="catalog-container">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1589460621427-1b9b9c1f07cb" alt="Lipstick">
+      <div class="product-details">
+        <h2>Velvet Matte Lipstick</h2>
+        <p>लंबे समय तक टिकने वाली शानदार लिपस्टिक जो आपके होंठों को आकर्षक बनाती है।</p>
+        <p class="price">₹499/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1615475033363-5f92c51e2edb" alt="Eyeshadow Palette">
+      <div class="product-details">
+        <h2>Eyeshadow Palette</h2>
+        <p>बेजोड़ रंगों का सेट जो आपकी आंखों को देगा एक शानदार ग्लैम लुक।</p>
+        <p class="price">₹699/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1607082349565-0b0609dfe9b9" alt="Nail Polish">
+      <div class="product-details">
+        <h2>Nail Polish Set</h2>
+        <p>शाइनी और मैट दोनों फिनिश के साथ आकर्षक रंगों का कलेक्शन।</p>
+        <p class="price">₹349/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1582719368703-4d1e00fbd4f2" alt="Blush Highlighter">
+      <div class="product-details">
+        <h2>Blush & Highlighter</h2>
+        <p>आपके चेहरे को देगा खूबसूरत ग्लो और प्राकृतिक चमक।</p>
+        <p class="price">₹399/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1589988076186-35c32b3a2a4e" alt="Foundation">
+      <div class="product-details">
+        <h2>Liquid Foundation</h2>
+        <p>स्मूद और लंबे समय तक टिकने वाला फाउंडेशन जो स्किन को देता है फ्लॉलेस फिनिश।</p>
+        <p class="price">₹599/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1598532531215-9612c54cd81b" alt="Lip Gloss">
+      <div class="product-details">
+        <h2>Shiny Lip Gloss</h2>
+        <p>होंठों को देगा गहराई और चमक जो दिनभर बनी रहेगी।</p>
+        <p class="price">₹299/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

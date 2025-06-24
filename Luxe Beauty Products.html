@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luxe Beauty Products</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4B0082;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #800080;
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding-bottom: 5px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .buy-btn {
+      background-color: #8a2be2;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      font-size: 15px;
+      border-radius: 6px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background-color: #6a1cb8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Luxe Beauty Products</h1>
+
+  <!-- Skincare -->
+  <h2>Luxury Skincare</h2>
+  <div class="container">
+    <div class="card">
+      <div class="product-name">Estée Lauder Night Repair Serum</div>
+      <a href="https://www.esteelauder.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Forest Essentials Soundarya Cream</div>
+      <a href="https://www.forestessentialsindia.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Clinique Moisture Surge 100H</div>
+      <a href="https://www.clinique.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">La Mer Crème de la Mer</div>
+      <a href="https://www.cremedelamer.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Kama Ayurveda Kumkumadi Oil</div>
+      <a href="https://www.kamaayurveda.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+  </div>
+
+  <!-- Haircare -->
+  <h2>Luxury Haircare</h2>
+  <div class="container">
+    <div class="card">
+      <div class="product-name">Kérastase Elixir Ultime Oil</div>
+      <a href="https://www.kerastase.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Moroccanoil Treatment Original</div>
+      <a href="https://www.moroccanoil.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">L'Oréal Absolut Repair Shampoo</div>
+      <a href="https://www.lorealprofessionnel.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Briogeo Deep Conditioning Mask</div>
+      <a href="https://www.briogeohair.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Aveda Invati Scalp Revitalizer</div>
+      <a href="https://www.aveda.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+  </div>
+
+  <!-- Bodycare -->
+  <h2>Luxury Bodycare</h2>
+  <div class="container">
+    <div class="card">
+      <div class="product-name">The Body Shop Rose Shower Gel</div>
+      <a href="https://www.thebodyshop.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Chanel No.5 Body Lotion</div>
+      <a href="https://www.chanel.com/in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">L'Occitane Almond Milk Concentrate</div>
+      <a href="https://in.loccitane.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Bath & Body Works Cherry Mist</div>
+      <a href="https://www.bathandbodyworks.in" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+    <div class="card">
+      <div class="product-name">Victoria’s Secret Body Lotion</div>
+      <a href="https://www.victoriassecret.com" class="buy-btn" target="_blank">Buy Now</a>
+    </div>
+  </div>
+
+</body>
+</html>

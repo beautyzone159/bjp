@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appliances Product Catalog - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077b6;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .catalog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-details h2 {
+      font-size: 1.5em;
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.3em;
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #0096c7;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #caf0f8;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔌 Appliances Product Catalog</h1>
+    <p>सौंदर्य और घरेलू उपयोग के लिए आधुनिक उपकरण</p>
+  </header>
+
+  <div class="catalog-container">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1617127365659-1e2f6fe1b3f3" alt="Hair Dryer">
+      <div class="product-details">
+        <h2>Hair Dryer / हेयर ड्रायर</h2>
+        <p>बालों को जल्दी और सुरक्षित सुखाने के लिए हाई परफॉर्मेंस हेयर ड्रायर।</p>
+        <p class="price">₹899/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1588776814546-2f62b06b4fe1" alt="Hair Straightener">
+      <div class="product-details">
+        <h2>Hair Straightener / हेयर स्ट्रेटनर</h2>
+        <p>स्मूद और सिल्की हेयर पाने के लिए बेस्ट स्ट्रेटनिंग डिवाइस।</p>
+        <p class="price">₹1299/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1630401351267-1d4a396a4a4e" alt="Facial Steamer">
+      <div class="product-details">
+        <h2>Facial Steamer / फेशियल स्टीमर</h2>
+        <p>चेहरे की गहराई से सफाई और ग्लो के लिए स्टीमर मशीन।</p>
+        <p class="price">₹799/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1614285317454-1fd87040254e" alt="Epilator">
+      <div class="product-details">
+        <h2>Electric Epilator / इलेक्ट्रिक एपिलेटर</h2>
+        <p>त्वचा से अनचाहे बाल हटाने के लिए आसान और दर्द रहित समाधान।</p>
+        <p class="price">₹999/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1603275431348-e7c34e41db91" alt="Massager">
+      <div class="product-details">
+        <h2>Body Massager / बॉडी मसाजर</h2>
+        <p>थकान और तनाव को दूर करने के लिए आरामदायक मसाज डिवाइस।</p>
+        <p class="price">₹1199/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1618424166153-98c7adce0123" alt="Wax Heater">
+      <div class="product-details">
+        <h2>Wax Heater / वैक्स हीटर</h2>
+        <p>सेल्फ वैक्सिंग के लिए उपयोगी और सुरक्षित वैक्स हीटिंग मशीन।</p>
+        <p class="price">₹599/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

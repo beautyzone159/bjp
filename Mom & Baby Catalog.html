@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mom & Baby Catalog - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #f08080;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .catalog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-details h2 {
+      font-size: 1.5em;
+      color: #f08080;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.3em;
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #f08080;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #ffe4e1;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🤱 Mom & Baby Products</h1>
+    <p>माँ और बच्चे की देखभाल के लिए सुरक्षित और भरोसेमंद उत्पाद</p>
+  </header>
+
+  <div class="catalog-container">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1585060544812-6b4578f9f95b" alt="Baby Diaper">
+      <div class="product-details">
+        <h2>Baby Diapers / बेबी डायपर</h2>
+        <p>आरामदायक और लीक-प्रूफ डायपर जो बच्चे को सूखा और खुश रखे।</p>
+        <p class="price">₹399/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1588776814417-6d9b4f99d535" alt="Baby Lotion">
+      <div class="product-details">
+        <h2>Baby Lotion / बेबी लोशन</h2>
+        <p>नरम और कोमल त्वचा के लिए पोषण देने वाला लोशन।</p>
+        <p class="price">₹199/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1616587891734-770d0fa43b98" alt="Feeding Bottle">
+      <div class="product-details">
+        <h2>Feeding Bottle / फीडिंग बोतल</h2>
+        <p>सुरक्षित और BPA-फ्री बोतल बच्चों के दूध के लिए।</p>
+        <p class="price">₹149/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1607828094987-32e39b3a93f5" alt="Baby Oil">
+      <div class="product-details">
+        <h2>Baby Oil / बेबी तेल</h2>
+        <p>मालिश के लिए हल्का और खुशबूदार तेल जो त्वचा को पोषण देता है।</p>
+        <p class="price">₹179/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1580894908361-96719503366b" alt="Nipple Cream">
+      <div class="product-details">
+        <h2>Nipple Cream / निप्पल क्रीम</h2>
+        <p>नर्सिंग के दौरान आराम के लिए सुरक्षित और मॉइस्चराइजिंग क्रीम।</p>
+        <p class="price">₹249/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1619531017796-ecc660bd8e34" alt="Baby Blanket">
+      <div class="product-details">
+        <h2>Baby Blanket / बेबी कंबल</h2>
+        <p>नरम और गर्म बेबी कंबल जो बच्चों को आरामदायक नींद दें।</p>
+        <p class="price">₹349/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

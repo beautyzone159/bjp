@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men's Grooming Catalog - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background: #ecf0f1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+
+    .catalog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-details h2 {
+      font-size: 1.5em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.3em;
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #ecf0f1;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🧔 Men's Grooming Products</h1>
+    <p>स्मार्ट और स्टाइलिश लुक के लिए विशेष पुरुष सौंदर्य उत्पाद</p>
+  </header>
+
+  <nav>
+    <a href="makeup.html">Makeup</a>
+    <a href="haircare.html">Haircare</a>
+    <a href="skincare.html">Skincare</a>
+    <a href="appliances.html">Appliances</a>
+    <a href="mom-baby.html">Mom & Baby</a>
+    <a href="men-grooming.html" style="text-decoration: underline;">Men's Grooming</a>
+  </nav>
+
+  <div class="catalog-container">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1607082352433-d9095d3fb2e4" alt="Beard Oil">
+      <div class="product-details">
+        <h2>Beard Oil / दाढ़ी का तेल</h2>
+        <p>दाढ़ी को मुलायम और चमकदार बनाने के लिए खास तेल।</p>
+        <p class="price">₹299/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1618401477761-1e7cebf9c25a" alt="Trimmer">
+      <div class="product-details">
+        <h2>Trimmer / ट्रिमर</h2>
+        <p>परफेक्ट शेव और स्टाइलिंग के लिए एडजस्टेबल ट्रिमर।</p>
+        <p class="price">₹999/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1606131730975-3487f9628b61" alt="Shaving Cream">
+      <div class="product-details">
+        <h2>Shaving Cream / शेविंग क्रीम</h2>
+        <p>मुलायम शेव के लिए फोमिंग क्रीम जो स्किन को हाइड्रेट रखे।</p>
+        <p class="price">₹199/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1588776814505-d38b0f3e1e94" alt="Face Wash">
+      <div class="product-details">
+        <h2>Face Wash / फेस वॉश</h2>
+        <p>धूल-मिट्टी हटाकर स्किन को तरोताज़ा करने वाला फेस वॉश।</p>
+        <p class="price">₹149/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1622519402405-228c30f5abdd" alt="Hair Wax">
+      <div class="product-details">
+        <h2>Hair Wax / हेयर वैक्स</h2>
+        <p>हेयर स्टाइल को बनाए रखें मजबूत पकड़ और चमक के साथ।</p>
+        <p class="price">₹249/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1620451082171-36999abf9b23" alt="Perfume">
+      <div class="product-details">
+        <h2>Perfume / इत्र</h2>
+        <p>लंबे समय तक चलने वाली ताजगी और आत्मविश्वास के लिए।</p>
+        <p class="price">₹599/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

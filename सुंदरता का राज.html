@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeup Product - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1619488589441-2488d2e2f85b?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    /* Add a semi-transparent overlay */
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ff69b4;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .product-image {
+      flex: 1 1 50%;
+      padding: 20px;
+    }
+
+    .product-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-details {
+      flex: 1 1 50%;
+      padding: 30px;
+    }
+
+    .product-details h2 {
+      font-size: 2em;
+      color: #c2185b;
+    }
+
+    .product-details p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 1.5em;
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+    }
+
+    footer {
+      background: #ffe4e1;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .product-container {
+        flex-direction: column;
+      }
+
+      .product-image, .product-details {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <header>
+      <h1>💋 Glam Look Makeup</h1>
+      <p>आपकी सुंदरता का राज!</p>
+    </header>
+
+    <div class="product-container">
+      <div class="product-image">
+        <img src="https://images.unsplash.com/photo-1589460621427-1b9b9c1f07cb" alt="Lipstick">
+      </div>
+      <div class="product-details">
+        <h2>Velvet Matte Lipstick</h2>
+        <p>एक शानदार मखमली फिनिश वाली लिपस्टिक जो आपके होंठों को बनाए आकर्षक और खूबसूरत। लंबे समय तक टिकने वाली और स्मूद टेक्सचर के साथ।</p>
+        <p class="price">₹499/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 Glam Look | सभी अधिकार सुरक्षित
+    </footer>
+  </div>
+
+</body>
+</html>

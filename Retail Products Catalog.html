@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Products Catalog - Glam Look</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #34495e;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background: #ecf0f1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+
+    .catalog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-details h2 {
+      font-size: 1.5em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .product-details p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.3em;
+      color: #e74c3c;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #ecf0f1;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ Retail Products</h1>
+    <p>आपकी रोज़मर्रा की ज़रूरतों के लिए विश्वसनीय उत्पाद</p>
+  </header>
+
+  <nav>
+    <a href="makeup.html">Makeup</a>
+    <a href="haircare.html">Haircare</a>
+    <a href="skincare.html">Skincare</a>
+    <a href="appliances.html">Appliances</a>
+    <a href="mom-baby.html">Mom & Baby</a>
+    <a href="men-grooming.html">Men's Grooming</a>
+    <a href="retail.html" style="text-decoration: underline;">Retail</a>
+  </nav>
+
+  <div class="catalog-container">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1586201375761-83865001e31b" alt="Grocery Items">
+      <div class="product-details">
+        <h2>Grocery / किराना</h2>
+        <p>दाल, चावल, आटा और अन्य दैनिक उपयोग की चीजें।</p>
+        <p class="price">₹299/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1581338834647-bc1aaa2f27c3" alt="Cold Drinks">
+      <div class="product-details">
+        <h2>Cold Drinks / कोल्ड ड्रिंक</h2>
+        <p>ठंडी और ताज़गी भरी पेय वस्तुएं।</p>
+        <p class="price">₹99/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1590080877034-44af6fdf0f31" alt="Biscuits">
+      <div class="product-details">
+        <h2>Biscuits / बिस्किट</h2>
+        <p>चाय के साथ खाए जाने वाले कुरकुरे बिस्किट।</p>
+        <p class="price">₹49/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1624717628081-58d4918a417d" alt="Toiletries">
+      <div class="product-details">
+        <h2>Toiletries / टॉयलेटरीज़</h2>
+        <p>साबुन, शैम्पू और पर्सनल केयर के ज़रूरी सामान।</p>
+        <p class="price">₹149/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1581579186989-60b9d4936edc" alt="Cleaning Products">
+      <div class="product-details">
+        <h2>Cleaning Products / सफाई उत्पाद</h2>
+        <p>घर की सफाई के लिए डिटर्जेंट और क्लीनर।</p>
+        <p class="price">₹189/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1609871197281-09f93e369e63" alt="Kitchen Utensils">
+      <div class="product-details">
+        <h2>Kitchen Utensils / रसोई बर्तन</h2>
+        <p>खाना पकाने और परोसने के उपयोगी बर्तन।</p>
+        <p class="price">₹299/-</p>
+        <a href="buy.html" class="buy-btn">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

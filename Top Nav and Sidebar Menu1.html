@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Top Nav and Sidebar Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('my_beauty_zone.jpg'); /* image ka naam */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    /* Top navigation bar */
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      line-height: 50px;
+      text-transform: capitalize;
+      font-family: 'calibri';
+      border-right: 1px solid white;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+      background-color: yellow;
+      color: black;
+    }
+
+    ul.topnav .active {
+      background-color: pink;
+    }
+
+    /* Sidebar style */
+    .sidebar {
+      height: 150%;
+      width: 150px;
+      position: fixed;
+      top: 40px;
+      left: 0;
+      background-color: Orange;
+      padding-top: 50px;
+      z-index: 0;
+      line-height: 100px;
+      text-transform: capitalize;
+      font-family: 'calibri';
+      border-right: 1px solid white;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: MediumSeaGreen;
+      color: white;
+    }
+
+    /* Main content */
+    .content {
+      margin-left: 150px;
+      margin-top: 60px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7); /* thoda transparent background for readability */
+      height: 2000px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <ul class="topnav">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Makeup</a></li>
+    <li><a href="#contact">Haircare</a></li>
+    <li><a href="#about">Skin</a></li>
+    <li><a href="#about">Bath of Body</a></li>
+    <li><a href="#advice">Beauty Advice</a></li>
+    <li><a href="#advice">Luxe</a></li>
+    <li><a href="#advice">Wellness</a></li>
+    <li><a href="#advice">Appliances</a></li>
+    <li><a href="#advice">Mom & Baby</a></li>
+    <li><a href="#advice">Men's & Grooming</a></li>
+    <li><a href="#advice">Retail</a></li>
+    <li><a href="#advice">Pop-up'</a></li>
+  </ul>
+
+  <!-- Sidebar Nav -->
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <!-- Page Content -->
+  <div class="content">
+    <h1>My Beauty Zone</h1>
+    <h2>Fixed Top and Left Sidebar Navigation</h2>
+    <p>Scroll this page to see the background image stay fixed in place.</p>
+  </div>
+
+</body>
+</html>

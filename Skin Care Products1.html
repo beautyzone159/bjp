@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skin Care Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #fce4ec;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #d81b60;
+    }
+
+    nav a:hover {
+      color: #c2185b;
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 30px 0 10px;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #444;
+    }
+
+    .price {
+      color: #e91e63;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .buy-btn {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #e64598;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffe4e1;
+      color: #555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Skin Care Products</h1>
+    <p>For your glowing and healthy skin!</p>
+  </header>
+
+  <nav>
+    <a href="makeup.html">Makeup</a>
+    <a href="haircare.html">Haircare</a>
+    <a href="skincare.html" style="text-decoration: underline;">Skincare</a>
+    <a href="appliances.html">Appliances</a>
+    <a href="mom-baby.html">Mom & Baby</a>
+    <a href="men-grooming.html">Men Grooming</a>
+    <a href="retail.html">Retail</a>
+  </nav>
+
+  <h1>Our Best Skin Care Picks</h1>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616104016164-c0a2c7ee871a" alt="Nivea Soft">
+      <div class="product-name">Nivea Soft Moisturizer</div>
+      <div class="price">₹199</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1615996001375-3495dd40a0c0" alt="Pond's Gel">
+      <div class="product-name">Pond's Super Light Gel</div>
+      <div class="price">₹249</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1630840745250-3db2ec2d7993" alt="Loreal Night Cream">
+      <div class="product-name">L'Oréal Revitalift Night Cream</div>
+      <div class="price">₹699</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621072153767-cf66e6f9376c" alt="Mamaearth Face Wash">
+      <div class="product-name">Mamaearth Vitamin C Face Wash</div>
+      <div class="price">₹349</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1608127588789-f2ec03cb87d6" alt="Himalaya Neem">
+      <div class="product-name">Himalaya Neem Face Wash</div>
+      <div class="price">₹149</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600180758890-8b9e05d82f10" alt="Biotique Lotion">
+      <div class="product-name">Biotique Morning Nectar Lotion</div>
+      <div class="price">₹185</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1607083204307-c5b9ff4cce5d" alt="Lakme Peach">
+      <div class="product-name">Lakmé Peach Milk Moisturizer</div>
+      <div class="price">₹249</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616612302745-5cc6fbd4e313" alt="WOW Aloe Gel">
+      <div class="product-name">WOW Aloe Vera Gel</div>
+      <div class="price">₹299</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1601640691328-3e4c6e6c3cbf" alt="Derma Co Sunscreen">
+      <div class="product-name">The Derma Co Sunscreen SPF 50</div>
+      <div class="price">₹399</div>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Glam Look | सभी अधिकार सुरक्षित
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neelam Beauty Cream</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body::before {
+      content: '';
+      background: url('https://images.unsplash.com/photo-1588776814546-ec7e1911e89c') no-repeat center center/cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -2;
+    }
+
+    body::after {
+      content: '';
+      background-color: rgba(255, 255, 255, 0.75);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .product {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      background-color: #fff0f5;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+
+    .product img {
+      width: 300px;
+      border-radius: 15px;
+      border: 4px solid #ff69b4;
+    }
+
+    .product-details {
+      flex: 1;
+    }
+
+    .product-details h1 {
+      font-size: 2rem;
+      color: #d63384;
+      margin-bottom: 15px;
+    }
+
+    .product-details p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .offer {
+      margin: 15px 0;
+      font-size: 1.2rem;
+      color: #c2185b;
+      font-weight: bold;
+    }
+
+    .available-products {
+      margin-top: 20px;
+    }
+
+    .available-products h3 {
+      font-size: 1.3rem;
+      color: #d63384;
+      margin-bottom: 10px;
+    }
+
+    .available-products ul {
+      list-style: square;
+      padding-left: 20px;
+      color: #444;
+    }
+
+    .available-products a {
+      text-decoration: none;
+      color: #c2185b;
+      font-weight: 500;
+    }
+
+    .available-products a:hover {
+      text-decoration: underline;
+      color: #e91e63;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffe4e1;
+      color: #b03060;
+      font-weight: bold;
+      border-radius: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .product {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .product img {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .product-details {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600185365483-26f2f64254d0" alt="Neelam Beauty Cream">
+      <div class="product-details">
+        <h1>Neelam Beauty Cream</h1>
+        <p>अब पाएँ बेदाग और चमकती त्वचा सिर्फ कुछ ही दिनों में! नेलम ब्यूटी क्रीम में हैं प्राकृतिक तत्व जो आपकी त्वचा को बनाएं गोरा, साफ़ और दमकता हुआ।</p>
+        
+        <div class="offer">💰 अभी केवल ₹499 में उपलब्ध!</div>
+
+        <div class="available-products">
+          <h3>स्टोर में उपलब्ध प्रोडक्ट्स:</h3>
+          <ul>
+            <li><a href="#">Neelam Beauty Cream</a></li>
+            <li><a href="#">GlowUp Lipstick</a></li>
+            <li><a href="#">Fairness Face Wash</a></li>
+            <li><a href="#">Rose Water Toner</a></li>
+            <li><a href="#">Makeup Combo Kit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 RK Beauty - सभी अधिकार सुरक्षित हैं
+    </footer>
+  </div>
+
+</body>
+</html>
